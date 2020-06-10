@@ -1,0 +1,66 @@
+
+/* .calendario #sandbox input{
+    display: none;
+} */
+#sandbox{
+    margin-top: 20px;
+}
+.datepicker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+.datepicker-inline{
+    width: 100% !important;
+}
+.datepicker{
+    width: 100%;
+    border-radius: 0;
+    direction: unset;
+}
+.datepicker .datepicker-days{
+    width: 100%;
+}
+.datepicker .datepicker-days table.table-condensed{
+    width: 100%;
+}
+.datepicker .datepicker-days table.table-condensed thead tr + tr th + th.datepicker-switch{
+    color: var(--primary-color);
+    font-family: 'Noto Sans', sans-serif !important;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+}
+.datepicker table.table-condensed thead tr + tr + tr th.dow{
+    color: var(--text-color) !important;
+    font-weight: 400;
+}
+.datepicker table tr td.disabled{
+    visibility: hidden !important;
+}
+
+.datepicker table tr td.active{
+    background: var(--primary-color) !important;
+    color: white;
+    border-radius: 13px;
+    text-shadow: none !important;
+}
+.datepicker table tr td span.active{
+    background: var(--primary-color) !important;
+}
+.datepicker td, .datepicker th{
+    border: 0;
+}
+.datepicker .datepicker-switch, .datepicker .prev, .datepicker .next, .datepicker tfoot tr th{
+    color: var(--primary-color);
+}
+
+ .datepicker table tbody tr td.day{
+    /* color: rgb(44, 44, 44) !important; */
+ }
+ /* .datepicker table tbody tr td.new.day{
+    color: var(--text-color) !important;
+}  */

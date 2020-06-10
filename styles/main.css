@@ -1,0 +1,11 @@
+:root{
+    --primary-color: #3FD0E4;
+    --title-color: #f8f9fa;
+    --subtitle-color: #454C54;
+    --text-color: #808D9C;
+}
+body{-webkit-font-smoothing: antialiased;font-family: 'Noto Sans', sans-serif !important;}
+a, a:hover{text-decoration: none;}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}

@@ -1,0 +1,117 @@
+body{
+    background-image: url(../images/bg-medico.png);
+}
+#page-agendamento header .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#page-agendamento header .container .contet i{
+    color: var(--subtitle-color);
+    font-size: 30px;
+}
+#page-agendamento header .container .contet a{
+    color: var(--subtitle-color);
+    display: flex;
+    align-items: center;
+    
+}#page-agendamento header .container .contet a span{
+    margin-left: 16px;
+    font-weight: 700;
+    font-size: 16px;
+}
+#page-agendamento header .container .icon span img{
+    max-width: 50px;
+    margin-left: 16px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#page-agendamento section.agendar .agendamento form{
+    background: white;
+    border-radius: 13px;
+}
+#page-agendamento section.agendar .container .row .col-12 .content{
+    background: white;
+    border-radius: 13px;
+}
+#page-agendamento section.agendar .container .row .col-12 .content .informacoes .img-box{
+    max-width: 50px;
+    max-height: 50px;
+}
+#page-agendamento section.agendar .container .row .col-12 .content .informacoes{
+    display: flex;
+    padding: 20px 20px 0;
+}
+#page-agendamento section.agendar .container .row .col-12 .content .informacoes .textbox {
+    margin-left: 6px;
+}
+#page-agendamento section.agendar .container .row .col-12 .content .informacoes .textbox h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--subtitle-color);
+}
+#page-agendamento section.agendar .container .row .col-12 .content .informacoes .textbox p{
+    font-size: 13px;
+    color: var(--text-color);
+}
+#page-agendamento section.agendar .container .row .col-12 .content .informacoes .textbox a{
+    font-size: 13px;
+    color: var(--text-color);
+}
+#page-agendamento section.agendar .container .row .col-12 .content .button{
+    display: flex;
+    justify-content: flex-end;
+}
+#page-agendamento section.agendar .container .row .col-12 .content a.btnAgendar{
+    font-size: 13px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 13px;
+    padding: 5px 25px;
+    margin: 10px;
+}
+
+/* Calendário*/
+#page-agendamento section.agendar .agendamento form .horario ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+form .horario li{
+    text-align: center;
+    margin: 20px 0;
+}
+
+form .horario ul li a{
+    color: var(--primary-color);
+    font-weight: 700;
+    background: white;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.20);
+    padding: 3px 10px;
+    border-radius: 13px;
+
+}
+form .horario ul li a.selected{
+    background: var(--primary-color) !important;
+    color: white;
+}
+form .horario ul li a:active{
+    background: var(--primary-color);
+    color: white;
+}
+form button{
+    color: white;
+    font-weight: 700;
+    background: var(--primary-color);
+    padding: 5px 50px;
+    border-radius: 13px;
+    cursor: pointer;
+    border: none;
+}
+.medico-calendario{
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.20) !important;
+    padding-bottom: 20px;
+    border-radius: 13px;
+}

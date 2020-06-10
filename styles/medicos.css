@@ -1,0 +1,70 @@
+body{
+    background-image: url(../images/bg-medico.png);
+}
+#page-medicos header .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#page-medicos header .container .contet i{
+    color: var(--subtitle-color);
+    font-size: 30px;
+}
+#page-medicos header .container .contet a{
+    color: var(--subtitle-color);
+    display: flex;
+    align-items: center;
+    
+}#page-medicos header .container .contet a span{
+    margin-left: 16px;
+    font-weight: 700;
+    font-size: 16px;
+}
+#page-medicos header .container .icon span img{
+    max-width: 50px;
+    margin-left: 16px;
+    font-weight: 700;
+    font-size: 16px;
+}
+#page-medicos section.medicos .container .row .col-12 .content{
+    background: white;
+    border-radius: 13px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.20);
+}
+#page-medicos section.medicos .container .row .col-12 .content .informacoes .img-box{
+    max-width: 50px;
+    max-height: 50px;
+}
+#page-medicos section.medicos .container .row .col-12 .content .informacoes{
+    display: flex;
+    padding: 20px 20px 0;
+}
+#page-medicos section.medicos .container .row .col-12 .content .informacoes .textbox {
+    margin-left: 6px;
+}
+#page-medicos section.medicos .container .row .col-12 .content .informacoes .textbox h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--subtitle-color);
+}
+#page-medicos section.medicos .container .row .col-12 .content .informacoes .textbox p{
+    font-size: 13px;
+    color: var(--text-color);
+}
+#page-medicos section.medicos .container .row .col-12 .content .informacoes .textbox a{
+    font-size: 13px;
+    color: var(--text-color);
+}
+#page-medicos section.medicos .container .row .col-12 .content .button{
+    display: flex;
+    justify-content: flex-end;
+}
+#page-medicos section.medicos .container .row .col-12 .content a.btnAgendar{
+    font-size: 13px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 13px;
+    padding: 5px 25px;
+    margin: 10px;
+}
+
