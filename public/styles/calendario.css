@@ -2,9 +2,10 @@
 /* .calendario #sandbox input{
     display: none;
 } */
-#sandbox{
-    margin-top: 20px;
+#sandbox input{
+    display: none;
 }
+
 .datepicker{
     display: flex;
     justify-content: center;

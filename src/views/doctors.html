@@ -1,0 +1,58 @@
+{% extends "layout.html" %}
+{% set mainId = "page-medicos" %}
+
+    
+{% block styles %}
+  <link rel="stylesheet" href="styles/medicos.css">
+{% endblock styles %}
+
+{% block content %}
+
+  {% include  "partials/header-nav.html" %}
+
+  <section class="medicos">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 mt-4">
+                {% for medico in medicos %}
+
+                <div class="content mt-4">
+                  <div class="informacoes">
+                      <span class="img-box">
+                          <img src="{{ medico.image }}" alt="{{medico.name}}">
+                      </span>
+                      <div class="textbox">
+                          <h6>{{medico.name}}</h6>
+                          <p>{{medico.specialty}}</p>
+                          <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> {{medico.address}}, {{medico.state}} - {{medico.city}}</a>
+                      </div>
+                  </div>
+                  <div class="button">
+                      <a href="/date" class="btn btnAgendar" type="submit">Agendar</a>
+                  </div>
+                </div>
+
+                {% endfor %}
+
+
+
+                <!-- <div class="content">
+                  <div class="informacoes">
+                      <span class="img-box">
+                          <img src="/assets/foto-medico.svg" alt="Médico">
+                      </span>
+                      <div class="textbox">
+                          <h6>Dr. José Augusto</h6>
+                          <p>Cardiologista</p>
+                          <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Av. Paulista 00, São Paulo - SP</a>
+                      </div>
+                  </div>
+                  <div class="button">
+                      <a href="/date" class="btn btnAgendar">Agendar</a>
+                  </div>
+                </div> -->
+              </div>
+          </div>
+      </div>
+  </section>
+{% endblock content %}

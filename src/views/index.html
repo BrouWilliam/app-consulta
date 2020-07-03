@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+{% set mainId = "page-home" %}
+
+{% block styles %}
+    <link rel="stylesheet" href="styles/home.css">
+{% endblock styles %}
+
+
+    {% block content %}
+        <header>
+            <div class="container-fluid">
+                <div class="navbar">
+                    <span><img src="/assets/navbar.svg" alt="Navbar" class="img-fluid"></span>
+                </div>
+                    <h1>Olá!<br><span>William</span></h1>
+            </div>
+        </header>
+
+        <div class="content">
+            <section  class="slides">
+                <div class="container">
+                    <div class="content">
+                        <div class="box">
+                            <h2>Lorem ipsum dolor<br> sit amet</h2>
+                            <p>lorem ipsum dolor site<br> amet, consectetur</p>
+                            <a href="#" class="btn btnPrimary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="services">
+                <div class="container">
+                    <h4>Categorias</h4>
+                    <div class="row">
+                        <div class="col-4 mt-4">
+                            <a href="/">
+                                <div class="box">
+                                    <span><img src="/assets/clinico-geral.svg" alt="Clinico Geral"></span>
+                                </div>
+                                <h6>Geral</h6>
+                            </a>
+                        </div>
+                        <div class="col-4 mt-4">
+                            <a href="/doctors">
+                                <div class="box">
+                                    <span><img src="/assets/cardiologista.svg" alt="Cardiologista"></span>
+                                </div>
+                                <h6>Cardiologista</h6>
+                            </a>
+                        </div>
+                        <div class="col-4 mt-4">
+                            <a href="/">
+                                <div class="box">
+                                    <span><img src="/assets/febre.svg" alt="Febre"></span>
+                                </div>
+                            </a>
+                            <h6>Febre</h6>
+                        </div>
+                        <div class="col-4 mt-4">
+                            <a href="/">
+                                <div class="box">
+                                    <span><img src="/assets/vacina.svg" alt="Vacinas"></span>
+                                </div>
+                                <h6>Vacinas</h6>
+                            </a>
+                        </div>
+                        <div class="col-4 mt-4">
+                            <a href="/">
+                                <div class="box">
+                                    <span><img src="/assets/dentista.svg" alt="Dentista"></span>
+                                </div>
+                                <h6>Dentista</h6>
+                            </a>
+                        </div>
+                        <div class="col-4 mt-4">
+                            <a href="/">
+                                <div class="box">
+                                    <span><img src="/assets/pneumologia.svg" alt="Pneumologia"></span>
+                                </div>
+                                <h6>Pneumologia</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    {% endblock content %}
