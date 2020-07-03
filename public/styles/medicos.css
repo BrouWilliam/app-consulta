@@ -1,5 +1,7 @@
 body{
-    background-image: url(../images/bg-medico.png);
+    background-image: url(../assets/bg-medico.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #page-medicos header .container{
     display: flex;
@@ -34,6 +36,10 @@ body{
 #page-medicos section.medicos .container .row .col-12 .content .informacoes .img-box{
     max-width: 50px;
     max-height: 50px;
+}
+#page-medicos section.medicos .container .row .col-12 .content .informacoes .img-box img{
+    max-width: 100%;
+    height: auto;
 }
 #page-medicos section.medicos .container .row .col-12 .content .informacoes{
     display: flex;
